@@ -13,12 +13,17 @@ struct ConditionalBC: View {
     var body: some View {
         VStack{
             Button("Circle Button = \(Showcircle.description)"){
-                       Showcircle.toggle()
+                withAnimation(.spring){
+                    Showcircle.toggle()
+                }
+                    
             }
             .buttonStyle(.bordered)
             
             Button("Rectangle Button = \(Showcircle.description)"){
-                       ShowcRectangle.toggle()
+                withAnimation(.spring){
+                    ShowcRectangle.toggle()
+                }
             }
             .buttonStyle(.bordered)
             

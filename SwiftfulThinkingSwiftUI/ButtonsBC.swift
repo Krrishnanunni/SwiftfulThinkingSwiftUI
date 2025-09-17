@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ButtonsBC: View {
+    @State var anim: Bool = false
     @State var title: String = "This is my title"
     var body: some View {
         VStack(spacing:20){
@@ -19,6 +20,9 @@ struct ButtonsBC: View {
             
             Button {
                 self.title = "Button 2 was pressed"
+                withAnimation(.default){
+                    anim.toggle()
+                }
             } label: {
                 Text("Button")
                     .font(.headline)
@@ -33,13 +37,15 @@ struct ButtonsBC: View {
             }
             Button {
                 self.title = "#3 Button"
+                
+                
             } label: {
                 Circle()
                     .fill(Color.white)
                     .frame(width: 75,height: 75)
                     .shadow(radius: 10)
                     .overlay {
-                        Image(systemName: "heart.fill")
+                        Image(systemName:anim ? "heart" : "heart.fill")
                             .foregroundColor(Color.red)
                             .font(.largeTitle)
                     }

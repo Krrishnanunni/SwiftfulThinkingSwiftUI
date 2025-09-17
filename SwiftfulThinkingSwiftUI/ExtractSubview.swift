@@ -27,7 +27,13 @@ struct ExtractSubview: View {
 //                MyItem(fruit: "Grapes", count: 5, bgColor: .purple)
 //                MyItem(fruit: "Apple", count: 45, bgColor: .red)
 //            }
-            contentlayer
+            VStack {
+                contentlayer
+                contentlayer
+            }
+            .padding()
+            
+            
         }
     }
 }
@@ -40,7 +46,7 @@ var contentlayer: some View{
     HStack {
         MyItem(fruit: "Banana", count: 5, bgColor: .yellow)
         MyItem(fruit: "Grapes", count: 5, bgColor: .purple)
-        MyItem(fruit: "Apple", count: 45, bgColor: .red)
+        MyItem(fruit: "Apple", count: 66, bgColor: .red)
     }
 }
 

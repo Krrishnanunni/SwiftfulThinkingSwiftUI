@@ -17,10 +17,20 @@ struct ExtractedFunctionsBC: View {
             bgColor
                 .ignoresSafeArea()
             //content goes here
-            
             contentLayer
+
         }
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     var contentLayer: some View {
         VStack{
             Text("Title")
@@ -43,15 +53,17 @@ struct ExtractedFunctionsBC: View {
     
     func buttonPressed() {
         
-        
-        switch bgColor {
-        case .pink:
-            bgColor = .mint
-            buttonColor = .pink
-        default:
-            bgColor = .pink
-            buttonColor = .mint
+        withAnimation(.default){
+            switch bgColor {
+            case .pink:
+                bgColor = .mint
+                buttonColor = .pink
+            default:
+                bgColor = .pink
+                buttonColor = .mint
+            }
         }
+        
     }
 }
 
