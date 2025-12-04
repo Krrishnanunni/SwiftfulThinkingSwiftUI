@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		861924612EAB797C00548601 /* PickerBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861924602EAB797C00548601 /* PickerBC.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		86D210EB2E4394C70082C034 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -28,7 +24,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		861924602EAB797C00548601 /* PickerBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBC.swift; sourceTree = "<group>"; };
 		86D210DD2E4394C40082C034 /* SwiftfulThinkingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D210EA2E4394C70082C034 /* SwiftfulThinkingSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThinkingSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D210F42E4394C70082C034 /* SwiftfulThinkingSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThinkingSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +75,6 @@
 		86D210D42E4394C40082C034 = {
 			isa = PBXGroup;
 			children = (
-				861924602EAB797C00548601 /* PickerBC.swift */,
 				86D210DF2E4394C40082C034 /* SwiftfulThinkingSwiftUI */,
 				86D210ED2E4394C70082C034 /* SwiftfulThinkingSwiftUITests */,
 				86D210F72E4394C70082C034 /* SwiftfulThinkingSwiftUIUITests */,
@@ -242,7 +236,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				861924612EAB797C00548601 /* PickerBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
