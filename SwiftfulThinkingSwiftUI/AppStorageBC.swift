@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AppStorageBC: View {
-    @State var currentUsername: String?
+    @AppStorage("name") var currentUsername: String?
     var body: some View {
         VStack{
             if let name = currentUsername {
@@ -27,10 +27,10 @@ struct AppStorageBC: View {
             .cornerRadius(30)
             
         }
-        .onAppear{
-//            currentUsername = UserDefaults.standard.string(forKey: "name")
-            
-        }
+//        .onAppear{
+////            currentUsername = UserDefaults.standard.string(forKey: "name")
+//            
+//        }
     }
 }
 
