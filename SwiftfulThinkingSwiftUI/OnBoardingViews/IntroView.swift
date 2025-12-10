@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct IntroView: View {
+    
     @AppStorage("is_signed") var currentUserSignedIn: Bool = false
     var body: some View {
         ZStack{
@@ -24,10 +25,11 @@ struct IntroView: View {
                 Text("On Boarding Page")
                     .font(.title2)
             }
-                
+            
         }
     }
 }
+
 
 #Preview {
     IntroView()
