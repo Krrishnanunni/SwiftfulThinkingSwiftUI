@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftfulThinkingSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ActionSheetBC()
+            IntroView()
         }
     }
 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct IntroView: View {
     
-    @AppStorage("is_signed") var currentUserSignedIn: Bool = false
+    @AppStorage("is_signed") var currentUserSignedIn: Bool = true
     var body: some View {
         ZStack{
             RadialGradient(colors: [Color.red , Color.purple ],
@@ -19,11 +19,10 @@ struct IntroView: View {
             .ignoresSafeArea()
             
             if currentUserSignedIn {
-                Text("Welcome User")
+                ProfileView()
                     .font(.title2)
             }else{
-                Text("On Boarding Page")
-                    .font(.title2)
+                    OnBoardingView()
             }
             
         }
