@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		86F6D8B42EF1A8AD00B13A57 /* AsyncImageBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6D8B32EF1A8AD00B13A57 /* AsyncImageBC.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		86D210EB2E4394C70082C034 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		86D210DD2E4394C40082C034 /* SwiftfulThinkingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D210EA2E4394C70082C034 /* SwiftfulThinkingSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThinkingSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D210F42E4394C70082C034 /* SwiftfulThinkingSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThinkingSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F6D8B32EF1A8AD00B13A57 /* AsyncImageBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		86D210D42E4394C40082C034 = {
 			isa = PBXGroup;
 			children = (
+				86F6D8B32EF1A8AD00B13A57 /* AsyncImageBC.swift */,
 				86D210DF2E4394C40082C034 /* SwiftfulThinkingSwiftUI */,
 				86D210ED2E4394C70082C034 /* SwiftfulThinkingSwiftUITests */,
 				86D210F72E4394C70082C034 /* SwiftfulThinkingSwiftUIUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F6D8B42EF1A8AD00B13A57 /* AsyncImageBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
